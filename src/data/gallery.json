@@ -1,0 +1,23 @@
+[
+  { "id": 1, "column": 1, "type": "image", "src": "/images/event2.jpeg", "category": "Events" },
+  { "id": 2, "column": 3, "type": "image", "src": "/images/3 PCS FRIED CHICKEN.png", "category": "Foods" },
+  { "id": 3, "column": 1, "type": "text", "content": "The Perfect Blend Of Tradition And Taste", "style": "large" },
+  { "id": 5, "column": 1, "type": "image", "src": "/images/img_rectangle_33.png", "category": "Restaurant" },
+  { "id": 7, "column": 2, "type": "image", "src": "/images/ABOOD.png", "category": "Foods" },
+  { "id": 8, "column": 2, "type": "image", "src": "/images/2-PCS-FRIED-CHICKEN.png", "category": "Foods" },
+  { "id": 9, "column": 3, "type": "text", "content": "Elegant Bites", "subcontent": "A celebration of new beginnings\nWarm smiles and meaningful moments", "style": "small" },
+  { "id": 10, "column": 1, "type": "image", "src": "/images/img_rectangle_37.png", "category": "Restaurant" },
+  { "id": 12, "column": 3, "type": "image", "src": "/images/3 PCS FRIED CHICKEN.png", "category": "Foods" },
+  { "id": 13, "column": 3, "type": "image", "src": "/images/ADANA WRAP.png", "category": "Foods" },
+  { "id": 15, "column": 2, "type": "image", "src": "/images/AFGHANI CHICKEN.png", "category": "Foods" },
+  { "id": 16, "column": 1, "type": "image", "src": "/images/ARABIC CHICKEN BIRIYANI.png", "category": "Foods" },
+  { "id": 17, "column": 3, "type": "image", "src": "/images/BABA GANOUSH.png", "category": "Foods" },
+  { "id": 18, "column": 1, "type": "image", "src": "/images/event1.jpeg", "category": "Events" },
+  { "id": 19, "column": 2, "type": "image", "src": "/images/event2.jpeg", "category": "Events" },
+  { "id": 20, "column": 1, "type": "image", "src": "/images/event3.jpeg", "category": "Events" },
+  { "id": 21, "column": 3, "type": "image", "src": "/images/event4.jpeg", "category": "Events" },
+  { "id": 22, "column": 2, "type": "image", "src": "/images/event5.jpeg", "category": "Events" },
+  { "id": 25, "column": 3, "type": "image", "src": "/images/event8.jpeg", "category": "Events" },
+  { "id": 26, "column": 2, "type": "image", "src": "/images/al-wukair.jpeg", "category": "Restaurant" }
+]
+

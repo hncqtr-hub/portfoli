@@ -1,0 +1,283 @@
+@import "tailwindcss";
+
+/* Brand typeface shipped in public/font/proza-libre. Loaded here (not next/font)
+   because the files live under /public. */
+@font-face {
+  font-family: "Proza Libre";
+  src: url("/font/proza-libre/ProzaLibre-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Proza Libre";
+  src: url("/font/proza-libre/ProzaLibre-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Proza Libre";
+  src: url("/font/proza-libre/ProzaLibre-Medium.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Proza Libre";
+  src: url("/font/proza-libre/ProzaLibre-SemiBold.ttf") format("truetype");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Proza Libre";
+  src: url("/font/proza-libre/ProzaLibre-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Proza Libre";
+  src: url("/font/proza-libre/ProzaLibre-BoldItalic.ttf") format("truetype");
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Proza Libre";
+  src: url("/font/proza-libre/ProzaLibre-ExtraBold.ttf") format("truetype");
+  font-weight: 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Proza Libre";
+  src: url("/font/proza-libre/ProzaLibre-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800; font-style: italic; font-display: swap;
+}
+
+/* Muller, shipped in public/font/MULLER, for paragraphs and the navbar. It has
+   no Arabic glyphs, so the unicode-range keeps Arabic off it entirely and each
+   element's previous stack still renders Arabic exactly as before. Only the
+   weights in use are declared; 600 resolves to Bold. */
+@font-face {
+  font-family: "Muller";
+  src: url("/font/MULLER/MullerLight.ttf") format("truetype");
+  font-weight: 300; font-style: normal; font-display: swap;
+  unicode-range: U+0000-024F, U+2000-206F, U+20AC, U+2122;
+}
+@font-face {
+  font-family: "Muller";
+  src: url("/font/MULLER/MullerRegular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+  unicode-range: U+0000-024F, U+2000-206F, U+20AC, U+2122;
+}
+@font-face {
+  font-family: "Muller";
+  src: url("/font/MULLER/MullerRegularItalic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+  unicode-range: U+0000-024F, U+2000-206F, U+20AC, U+2122;
+}
+@font-face {
+  font-family: "Muller";
+  src: url("/font/MULLER/MullerMedium.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+  unicode-range: U+0000-024F, U+2000-206F, U+20AC, U+2122;
+}
+@font-face {
+  font-family: "Muller";
+  src: url("/font/MULLER/MullerBold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+  unicode-range: U+0000-024F, U+2000-206F, U+20AC, U+2122;
+}
+
+/* Every paragraph on the public site; the footer and the admin keep their
+   fonts, and so does the Arabic (RTL) site, where Muller would otherwise still
+   draw the spaces between Arabic words. !important because several paragraphs
+   set Proza inline; those keep Proza's stack behind Muller. */
+html:not([dir="rtl"]) p:not(footer p, [data-admin] p) {
+  font-family: "Muller", var(--font-poppins), sans-serif !important;
+}
+html:not([dir="rtl"]) p:is(.font-proza, [style*="--font-proza"]):not(footer p, [data-admin] p) {
+  font-family: "Muller", var(--font-proza), sans-serif !important;
+}
+
+
+/* Tailwind v4 reads theme tokens from here, not from tailwind.config.ts.
+   Hero -> Our Story palette: brand-crimson is shared by the hero wave's bottom
+   stop and the Our Story background so the two sections meet without a seam.
+   Only new tokens are declared — existing utilities are left untouched. */
+@theme {
+  --color-brand-blue: #152a9e;
+  --color-brand-crimson: #a0111a;
+  --color-brand-scarlet: #e31e24;
+  --color-brand-gold: #f2c33d;
+  --color-brand-cream: #f5e7cc;
+  /* Sampled from public/images/color/ — the brand pair used by the reference. */
+  --color-hnc-cream: #fff4cc;
+  --color-hnc-red: #a71c1f;
+  /* Proza Libre is Latin-only, so Arabic falls through to the system stack. */
+  --font-proza: "Proza Libre", "Segoe UI", sans-serif;
+}
+
+/* Inline, so `font-muller` resolves --font-poppins on the element itself (next/font
+   sets it on <body>, not :root). Poppins stays behind Muller as before. */
+@theme inline {
+  --font-muller: "Muller", var(--font-poppins), sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: #0D1021;
+    --foreground: #ffffff;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-poppins), sans-serif;
+    overflow-x: hidden !important;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #0D1021;
+      --foreground: #ffffff;
+    }
+  }
+}
+
+@layer components {
+  .nova {
+    font-family: var(--font-poppins);
+  }
+
+  .junge {
+    font-family: var(--font-poppins);
+  }
+
+  .philosopher {
+    font-family: var(--font-poppins);
+  }
+
+  .mina {
+    font-family: var(--font-poppins);
+  }
+
+  .inter {
+    font-family: var(--font-poppins);
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Hero entrance animations opt out entirely for visitors who ask for less
+   motion. This has to live in CSS, not only in the framer hook: the hook cannot
+   know the preference until after the first render, so JS alone lets a few
+   hundred milliseconds of movement through before it settles. */
+@media (prefers-reduced-motion: reduce) {
+  [data-hero-motion],
+  [data-anim],
+  .anim-hero-label,
+  .anim-hero-title,
+  .anim-hero-sub,
+  .anim-hero-lines > * {
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+    animation: none !important;
+  }
+}
+
+/* ===================== Heading & caption animation ======================
+   One system, six entrances, used across every public page. Only opacity,
+   transform and clip-path animate, so nothing here can reflow the page.
+
+   Hero entrances are pure CSS and start at first paint. They deliberately do
+   not go through framer: framer server-renders its `initial` state, so hero
+   copy sat at opacity 0 for the ~1s React took to hydrate before anything
+   moved — which is why the earlier attempts looked like nothing happened.
+
+   Scroll entrances wait for `.is-in`, added once by RevealObserver. The
+   hidden start state is gated behind `html.js-anim`, set by an inline script
+   before first paint, so with JavaScript off every element just renders. */
+
+:root {
+  --anim-ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes animLabel {
+  from { opacity: 0; transform: translate3d(0, 24px, 0); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes animRise {
+  from { opacity: 0; transform: translate3d(0, 70px, 0); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* Direction comes from a custom property so RTL only flips the sign. */
+@keyframes animSlide {
+  from { opacity: 0; transform: translate3d(var(--anim-from, -60px), 0, 0); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes animLift {
+  from { opacity: 0; transform: translate3d(0, 40px, 0); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* Vertical wipe. Ends on inset(0), which clips exactly the border box, so no
+   descender or punctuation is cut once it has played. */
+@keyframes animClip {
+  from { opacity: 0; clip-path: inset(0 0 100% 0); transform: translate3d(0, 20px, 0); }
+  to   { opacity: 1; clip-path: inset(0 0 0 0);    transform: none; }
+}
+
+@keyframes animAccent {
+  from { opacity: 0; transform: scale(0.94); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ---- Hero copy: fires on load, needs no JavaScript ---- */
+.anim-hero-label { animation: animLabel 800ms var(--anim-ease) both; }
+.anim-hero-title { animation: animRise 1100ms var(--anim-ease) 100ms both; }
+.anim-hero-sub   { --anim-from: -60px; animation: animSlide 1000ms var(--anim-ease) 300ms both; }
+
+/* Multi-line hero title: each line rises on its own beat. */
+.anim-hero-lines > * { animation: animRise 1100ms var(--anim-ease) both; }
+.anim-hero-lines > *:nth-child(1) { animation-delay: 100ms; }
+.anim-hero-lines > *:nth-child(2) { animation-delay: 220ms; }
+.anim-hero-lines > *:nth-child(3) { animation-delay: 340ms; }
+[dir="rtl"] .anim-hero-sub { --anim-from: 60px; }
+
+/* ---- Scroll-triggered: section headings, captions, accents ---- */
+.js-anim [data-anim] { opacity: 0; }
+.js-anim [data-anim].is-in { opacity: 1; }
+
+.js-anim [data-anim="lift"].is-in   { animation: animLift 800ms var(--anim-ease) both; }
+.js-anim [data-anim="clip"].is-in   { animation: animClip 900ms var(--anim-ease) both; }
+.js-anim [data-anim="accent"].is-in { animation: animAccent 700ms var(--anim-ease) both; }
+
+.js-anim [data-anim="slide"] { --anim-from: -50px; }
+.js-anim [data-anim="slide"].is-in { animation: animSlide 900ms var(--anim-ease) both; }
+.js-anim[dir="rtl"] [data-anim="slide"] { --anim-from: 50px; }
+
+/* Caption stagger behind its heading. */
+.js-anim [data-anim][data-anim-step="1"].is-in { animation-delay: 120ms; }
+.js-anim [data-anim][data-anim-step="2"].is-in { animation-delay: 260ms; }
+.js-anim [data-anim][data-anim-step="3"].is-in { animation-delay: 400ms; }
+
+/* Rosette row on the home page's Our Story section: each flower turns about its
+   own centre. 360deg lands back on 0, so `linear infinite` loops with no visible
+   reset. Only `transform` animates, so nothing reflows and the row cannot shift. */
+@keyframes rosette-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rosette-spin {
+  transform-origin: center center;
+  animation: rosette-spin 10s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rosette-spin {
+    animation: none;
+  }
+}

@@ -1,0 +1,699 @@
+{
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "about": "About us",
+    "findMore": "Find us",
+    "careers": "Careers",
+    "language": "العربية",
+    "logoName": "HOT N COOL",
+    "menu": "Menu",
+    "franchise": "Franchise"
+  },
+  "hero": {
+    "title": "The taste of flavour",
+    "subtitle": "Where every meal feels <br/> refreshing",
+    "cta": "Menu",
+    "brand": "Hot n Cool",
+    "tagline1": "Grills, Juices & Sandwiches, Fast, Fresh & Always Nearby",
+    "tagline2": "Proudly Serving Locations, Across Qatar Open 24/7"
+  },
+  "galleryPage": {
+    "title": "Our Gallery",
+    "subtitle": "Capturing the joy of inauguration and the warmth of shared meals",
+    "dineIn": "Dine-In & Takeaway",
+    "tabs": {
+      "all": "All",
+      "foods": "Foods",
+      "events": "Events",
+      "restaurant": "Restaurant"
+    },
+    "items": {
+      "item3": "The Perfect Blend Of Tradition And Taste",
+      "item9": {
+        "title": "Elegant Bites",
+        "subtitle": "A celebration of new beginnings\nWarm smiles and meaningful moments"
+      }
+    }
+  },
+  "about": {
+    "title": "HOT N COOL",
+    "subtitle": "The coolest place for the hottest food in town",
+    "heading": "Our Story",
+    "description": "Hot N Cool has established itself as a premier restaurant chain in Qatar, offering a distinctive fusion of traditional flavors and innovative culinary experiences. Founded in the early 1990s, we have expanded to over 68 outlets across the country, earning a strong reputation in the hospitality industry.\n\nWith an unwavering commitment to excellence, we deliver outstanding service and high-quality meals, fostering a loyal customer base. Our restaurants provide a warm and inviting atmosphere where guests can enjoy a diverse range of freshly prepared dishes, from classic Middle Eastern recipes to contemporary creations.\n\nAs part of the HNC Group, we also manage OOREGOO Factory, a subsidiary that produces and distributes premium frozen, chilled, and fresh food products across the Middle East. Our factory is ISO 22000:2018 and HACCP compliant, ensuring the highest standards of food safety.\n\nAdditionally, our Catering Division provides a comprehensive range of services, including corporate catering, buffet services, outdoor catering, and on-site catering for schools, universities, and government entities.",
+    "welcome": "Welcome",
+    "chairmanMessage": {
+      "name": "Nizar Abdullah",
+      "role": "Chairman & Managing Director, HNC Group of companies",
+      "title": "Chairman's Message",
+      "p1": "In the heart of Qatar, 1991 became the first chapter of a dream served with passion and hustle. With nothing but determination and endless passion, Nizaar Abdulla & team stepped into the world of hospitality by assisting with small responsibilities inside a cafeteria. But with passion to learn, he slowly mastered every part of the work — from making to understanding the true spirit of hospitality.",
+      "p2": "Through years of dedication and sacrifice, that small beginning turned into something extraordinary. One simple idea — keeping the shop partially open at night — later became the start of a 24-hour restaurant loved by countless people.",
+      "p3": "Today, HotnCool Restaurant holds a special place in the hearts of many, especially within the Arab community across the UAE and Qatar. With 72+ branches, 1000+ employees, and 200+ vehicles under the brand, it stands today as a symbol of trust, taste, and consistency.",
+      "p4": "",
+      "p5": "",
+      "p6": "",
+      "footer": "",
+      "headline": "A Dream Served\n24 Hours\nWith Passion"
+    },
+    "valuableReality": {
+      "title": "VALUABLE REALITY",
+      "heading": "What We\nStand For",
+      "body": "At Hot n Cool, we believe in quality, responsibility, and care. We serve fresh, high-quality meals while minimizing waste through thoughtful menu planning.\nBuilt on trust, honesty, and integrity, we stand by our commitments and give back to the community through charitable initiatives.\nMore than good food – we serve with purpose.",
+      "p1": "At <strong>Hot n Cool</strong>, we believe true value is built on principles quality, responsibility, and care. It's not just about serving food it's about doing things the right way, every step of the journey.",
+      "p2": "We focus on delivering high quality meals prepared with fresh ingredients and genuine attention to detail. To reduce waste and respect our resources, we customize each menu based on individual needs ensuring satisfaction without excess.",
+      "p3": "Our foundation is built on <strong>trust, honesty, and integrity</strong>. We don't just say the right words we follow through with real actions, standing by our commitments every day.",
+      "p4": "We also believe in giving back. A portion of our profits goes toward <strong>charitable causes</strong>, because success means more when it's shared with those who need it most.",
+      "p5": "<strong>This is what we stand for. Not just good food, but a greater purpose. At Hot n Cool,</strong> values aren't just spoken they're lived."
+    },
+    "mission": {
+      "title": "Mission",
+      "body": "Our mission is to take the rich flavours of Asia and the Arab world to the rest of the world, making great food, tea, and hospitality accessible to everyone. Inspired by the way coffee became a global culture, we believe tea, traditional flavours, and regional cuisine can travel just as far. Through our restaurants, delivery, catering, and food production, we combine authentic flavours with modern hospitality, consistency, innovation, and quality.\nWe don’t just serve food. We take flavours, culture, and hospitality beyond borders.",
+      "text": "Our mission is to offer an unparalleled dining experience by providing a diverse selection of high quality dishes, blending traditional flavors with a modern twist. We are committed to using the freshest ingredients, adhering to strict cleanliness and safety standards, and maintaining professionalism and integrity across all operations.\n\nThrough continuous innovation, we strive to exceed our patrons' expectations and deliver unforgettable culinary moments.\n\nThrough OOREGOO Factory, we extend our mission by offering premium food products and catering services that adhere to international standards, serving schools, universities, and government organizations."
+    },
+    "vision": {
+      "title": "Vision",
+      "body": "To become a globally recognised food and hospitality brand from Qatar, bringing the flavours, tea, cuisine, and hospitality of Asia and the Arab world to people around the world by blending authentic flavours with innovative cuisine.\nWe aspire to build a brand that crosses borders, connects cultures, and makes regional flavours part of the global dining experience, while staying rooted in our values, heritage, and commitment to quality.",
+      "text": "Our vision at Hot N Cool is to be globally recognized as a leader in culinary excellence.\n\nWe aspire to blend authentic traditional flavors with innovative culinary techniques in an ambiance that promotes comfort and sophistication.\n\nEvery customer interaction should be a celebration of high quality food, exceptional service, and memorable experiences.\n\nOur goal is to expand our brand presence and reach more customers worldwide."
+    },
+    "mixGrill": {
+      "tag": "Mix Grill",
+      "tagAr": "مشاوي مشكلة",
+      "title": "Mix Grill",
+      "titleAr": "مشاوي مشكلة",
+      "quote": "A delicious mix of grilled flavors, all on one plate..!",
+      "cta": "Explore Now!"
+    },
+    "story": "Hot N Cool is a locally owned fast-food brand from Qatar, offering modern quick-service dining with quality ingredients, bold flavours, and a focus on freshness and consistency.\nRooted in Qatari hospitality, Hot N Cool combines great taste, fast service, and genuine care to deliver a dining experience customers trust and enjoy.",
+    "banner": {
+      "subtitle": "About Hot n Cool Express",
+      "line1": "Our Story",
+      "line2": "& Food Discover",
+      "line3": "the Story Behind",
+      "desc": "Hot n Cool Express and our passion for serving quality food, refreshing drinks and enjoyable dining experiences."
+    }
+  },
+  "branches": {
+    "sectionTitle": "Our Journey",
+    "branchLabel": "Branch",
+    "muaither": {
+      "title": "Al Wukair Branch",
+      "description": "The Hot N Cool Muaither branch is a favorite stop for residents and workers in the area, serving the full Hot N Cool menu with the same taste and value the brand is known for. Whether it is a quick breakfast, a budget‑friendly lunch break"
+    },
+    "alMearad": {
+      "title": "Al Wakra Branch",
+      "description": "The Al Mearad (Sailiya) branch brings the complete Hot N Cool experience to customers in the western side of Doha, making it easy to grab a quick bite or full meal without travelling far. With generous portions, value combos, and a wide variety of drinks"
+    },
+    "madinatKhalifa": {
+      "title": "Al Wakra Main St Branch",
+      "description": "Located in Madinat Khalifa, this Hot N Cool branch is ideal for families and office crowds looking for fast service and consistent flavors close to home and work. From combo offers and grills to popular street‑style snacks and desserts, the outlet combines dine‑in comfort with reliable delivery options so customers can enjoy their favorites at home as well."
+    },
+    "timeline": [
+      {
+        "name": "Hotncool Wukair",
+        "phone": "44445844",
+        "branchNo": "58"
+      },
+      {
+        "name": "Hotncool Wakrah",
+        "phone": "",
+        "branchNo": "67"
+      },
+      {
+        "name": "Hotncool Signal, Jabal",
+        "phone": "44444168",
+        "branchNo": "68"
+      }
+    ],
+    "upcomingTitle": "Upcoming Branches",
+    "upcoming": [
+      {
+        "name": "Hotncool Janoub Garden"
+      },
+      {
+        "name": "Hotncool Dafna"
+      },
+      {
+        "name": "Hotncool Shahaniyya"
+      }
+    ]
+  },
+  "logoSection": {
+    "title": "We Serve You The Best",
+    "text": "Hot and Cool"
+  },
+  "offer": {
+    "slide1": {
+      "title": "THE GOOD MENUS",
+      "offer": "45% OFF",
+      "heading": "Fresh Of The Grill",
+      "desc1": "The Hot N Cool Muaither branch is a favorite stop for residents and workers in the area, serving the full Hot N Cool",
+      "desc2": "menu with the same taste and value the brand is known for. Whether it is a quick breakfast, a budget-friendly lunch break."
+    },
+    "slide2": {
+      "title": "SPECIAL DEALS",
+      "offer": "30% OFF",
+      "heading": "Taste The Difference",
+      "desc1": "Enjoy our chef special meals prepared with premium ingredients. Perfect for family dinner and quick lunch breaks.",
+      "desc2": ""
+    },
+    "slide3": {
+      "title": "HOT COMBOS",
+      "offer": "Buy 2 Get 1",
+      "heading": "Daily Fresh Recipes",
+      "desc1": "Discover new combo offers every day. Budget friendly meals with authentic flavour.",
+      "desc2": ""
+    }
+  },
+  "openingSoon": {
+    "title": "Opening soon...",
+    "description": "Our journey continues as we open new branches and reach more communities",
+    "cta": "See more"
+  },
+  "welcome": {
+    "title": "Experience Hot N Cool",
+    "tagline": "Everyday Flavors of Qatar",
+    "description": "Hot N Cool operates multiple branches across Doha and surrounding areas, with strong visibility on delivery platforms like Talabat and Deliveroo, allowing customers to order from the same familiar menu wherever they are. Many outlets are open late or 24/7, making the brand a go‑to spot for breakfast, quick lunches, evening snacks, and midnight cravings",
+    "button": "explore our flavour"
+  },
+  "findMore": {
+    "title": "Serving You From Multiple Locations",
+    "hero": {
+      "label": "Hot n Cool Express Locations",
+      "lead": "Find a Branch\nNear You\nLooking for",
+      "sub": "Hot n Cool Express?",
+      "text": "Find our restaurant locations in Wakra, Al Khor, Jabal, Al Rayan and Wukhair across Qatar."
+    },
+    "address": "Address",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp Order",
+    "orderNow": "Order Now!",
+    "menu": "Menu",
+    "loadingMap": "Map loading..."
+  },
+  "data": {
+    "branches": [
+      {
+        "name": "Hot N Cool, Al Wakrah",
+        "address": "Al Janoub Square, Al Wakrah"
+      },
+      {
+        "name": "Al Wakrah Main St Rd",
+        "address": "Hot N Cool Signal, Mesaieed Rd, Al Wakrah"
+      },
+      {
+        "name": "Al-wakra",
+        "address": "Abdurahman bin jasim Street,Al wakra"
+      },
+      {
+        "name": "Al Wakrah ",
+        "address": "Shk. Abdulrahman bin Jasim Al thani st,Al Wakrah Qatar"
+      },
+      {
+        "name": "Al-Khor",
+        "address": "Hotncool,Near Al Shuva Reserve,Al-khor"
+      }
+    ]
+  },
+  "footer": {
+    "branchName": "HotnCool",
+    "address": "OFFICE-04\nBuilding 01\nJanoub Square\nAl-Wukair",
+    "description": "What started with humble beginnings has now become a journey that inspires many — proving that dreams built with dedication never stay small forever.",
+    "phone": "+974 5545 6673",
+    "copyright": "Hot N Cool Restaurant. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "nav": {
+      "qatar": "Qatar",
+      "locations": "Locations",
+      "contact": "Contact Us",
+      "company": "Company",
+      "story": "Story",
+      "franchise": "Franchise",
+      "legal": "Legal"
+    },
+    "delivery": "Online Delivery Platforms",
+    "enquiries": "Contact for Enquiries",
+    "email": "info@hnchq.com",
+    "popular": {
+      "heading": "Popular Searches",
+      "items": [
+        "Best Cafe in Qatar",
+        "Best Karak Tea in Qatar",
+        "Best Chai in Qatar",
+        "Best Grill in Qatar",
+        "Best Tea in Qatar",
+        "Best Restaurant in Qatar",
+        "Karak Tea Near me",
+        "Best Burger in Qatar",
+        "Best Wrap in Qatar",
+        "Best Chicken Sandwich in Qatar",
+        "Snacks in Qatar",
+        "Best Snacks in Doha"
+      ]
+    }
+  },
+  "careersPage": {
+    "title": "JOIN OUR TEAM",
+    "hero": {
+      "label": "Careers at Hot n Cool Express",
+      "lead": "Jobs in\nQatar",
+      "text": "Join the Hot N Cool Express team and explore exciting career opportunities in the restaurant industry across Qatar.",
+      "cta": "Join Our Team"
+    },
+    "subtitle": "At Hot N Cool, We Welcome Passionate Individuals To Explore Career Opportunities And Grow With Our Team",
+    "form": {
+      "heading": "Contact Us",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "position": "Job Position",
+      "message": "Message",
+      "resume": "Upload Resume",
+      "submit": "Submit",
+      "submitLoading": "Submitting...",
+      "success": "Application submitted successfully!",
+      "error": "Failed to submit application. Please try again.",
+      "selected": "Selected",
+      "chooseFile": "Choose File",
+      "noFileChosen": "No file chosen",
+      "resumeRequired": "Resume is required",
+      "phoneInvalid": "Please enter a valid phone number",
+      "applyingFor": "Applying for",
+      "clear": "Change",
+      "generalApplication": "General Application"
+    },
+    "intro": {
+      "label": "Careers at Hot N Cool",
+      "heading": "Build Your Career\nWith Us",
+      "body1": "Hot N Cool has been part of daily life in Qatar since 1991, and every plate that leaves our kitchens is the work of a team that takes pride in it. From our restaurants and kitchens to delivery and the support office, our people are the reason guests keep coming back.",
+      "body2": "We are always glad to meet people who care about hospitality — whether you are starting your first job or bringing years of kitchen experience with you. Tell us where you see yourself fitting in, and we will take it from there."
+    },
+    "why": {
+      "label": "Why Work With Us?",
+      "heading": "A Place Worth\nStaying For",
+      "intro": "We ask a lot of our teams, so we try to give a lot back: clear expectations, people who look out for each other, and a real path forward for anyone who wants one.",
+      "items": {
+        "culture": {
+          "title": "A Culture of Respect",
+          "text": "Everyone from the kitchen line to the front counter is spoken to the same way. Good work is noticed and problems are raised early, not stored up."
+        },
+        "teamwork": {
+          "title": "Teamwork First",
+          "text": "A busy service only works when the whole shift moves together. We hire for people who cover for a colleague without being asked."
+        },
+        "growth": {
+          "title": "Room to Grow",
+          "text": "Many of our supervisors and branch leads started on the floor. When a role opens, we look inside the team before we look outside it."
+        },
+        "learning": {
+          "title": "Learning on the Job",
+          "text": "New joiners are paired with an experienced colleague and trained on our recipes, service standards, hygiene rules and safety procedures."
+        },
+        "development": {
+          "title": "Career Development",
+          "text": "We talk with you about where you want to be next and what it will take to get there, rather than leaving it to chance."
+        },
+        "recognition": {
+          "title": "Recognition for Effort",
+          "text": "Long hours during a rush do not go unnoticed. Effort and reliability count towards the roles that open up next."
+        }
+      }
+    },
+    "life": {
+      "label": "Life at Hot N Cool",
+      "heading": "More Than\na Shift",
+      "body1": "Our restaurants are busy, social places, and the teams inside them are the same. Shifts are planned so nobody is left carrying a service alone, and a new joiner always has someone to ask.",
+      "body2": "Outside service hours our teams meet across branches — for training sessions, for celebrations and for the sport and community events we take part in around Qatar.",
+      "points": {
+        "p1": {
+          "title": "A team that mixes",
+          "text": "Colleagues from many backgrounds working one floor, one kitchen, one standard."
+        },
+        "p2": {
+          "title": "Branches across Qatar",
+          "text": "Work close to home — our branches are listed on the Find Us page."
+        },
+        "p3": {
+          "title": "Real responsibility",
+          "text": "You are trusted with your section from the day your training ends."
+        }
+      }
+    },
+    "openings": {
+      "label": "Current Openings",
+      "heading": "Open Positions",
+      "intro": "Roles we are actively hiring for appear here with their full details. If nothing is listed, we still want to hear from you.",
+      "department": "Department",
+      "location": "Location",
+      "type": "Employment Type",
+      "about": "About the Role",
+      "responsibilities": "Key Responsibilities",
+      "skills": "Required Skills",
+      "apply": "Apply Now",
+      "emptyTitle": "No Vacancies Open Right Now",
+      "emptyText": "We are not advertising a specific role at the moment, but we read every application that reaches us and keep it on file. Send your details and CV using the form below, and we will get in touch as soon as a suitable position opens at one of our branches.",
+      "emptyCta": "Submit Your Resume"
+    },
+    "process": {
+      "label": "Application Process",
+      "heading": "From Application\nto First Shift",
+      "intro": "Four straightforward steps. We will tell you where you stand at each one.",
+      "steps": {
+        "submit": {
+          "title": "Submit Your Application",
+          "text": "Fill in the form below with your details and attach your CV as a PDF or Word document."
+        },
+        "review": {
+          "title": "We Review It",
+          "text": "Our team reads your application and matches it against the roles we have open or expect to open."
+        },
+        "interview": {
+          "title": "Interview",
+          "text": "If there is a fit, we invite you in to meet the branch team and talk through the role in detail."
+        },
+        "offer": {
+          "title": "Offer and Onboarding",
+          "text": "A successful interview is followed by an offer, your paperwork, and training with an experienced colleague."
+        }
+      }
+    },
+    "cta": {
+      "heading": "Join Our Team",
+      "text": "If hospitality is something you enjoy rather than endure, we would like to hear from you — whatever stage of your career you are at.",
+      "button": "Apply Now"
+    }
+  },
+  "contactPage": {
+    "title": "CONTACT US",
+    "addressTitle": "HNC FUROUSIYA",
+    "address": "Muaither–Furoosiya Street, Near Khalifa Stadium,\nDoha, Al Rayyan, Qatar.",
+    "phone": "+974 4444 5844",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message",
+      "heading": "Send Us a Message",
+      "intro": "Fill in the form and our team will come back to you. Fields marked with an asterisk are required.",
+      "fullName": "Full Name",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "enquiryType": "Enquiry Type",
+      "submitLoading": "Sending...",
+      "success": "Thank you — your message has been sent. Our team will be in touch.",
+      "error": "Your message could not be sent. Please try again, or call us on the number above.",
+      "optional": "optional",
+      "selectType": "Select an enquiry type",
+      "types": {
+        "general": "General Enquiry",
+        "orders": "Orders & Delivery",
+        "reservations": "Reservations & Groups",
+        "catering": "Catering & Events",
+        "franchise": "Franchise Enquiry",
+        "careers": "Careers",
+        "feedback": "Feedback"
+      },
+      "errors": {
+        "fullName": "Please enter your full name",
+        "fullNameMax": "Name cannot exceed 60 characters",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "phoneInvalid": "Please enter a valid phone number",
+        "subject": "Please enter a subject",
+        "subjectMax": "Subject cannot exceed 100 characters",
+        "type": "Please choose an enquiry type",
+        "message": "Please enter your message",
+        "messageMax": "Message cannot exceed 1000 characters"
+      }
+    },
+    "hero": {
+      "label": "Get in Touch with Hot N Cool",
+      "lead": "Contact\nUs",
+      "text": "Questions about an order, a booking, catering or a franchise? Reach the right team in one message."
+    },
+    "intro": {
+      "label": "Welcome",
+      "heading": "We're Here\nto Help",
+      "body1": "Whether you want to book a table for a large group, arrange catering for an event, follow up on an order or tell us how your last meal was, there is someone on our side ready to answer.",
+      "body2": "Call the number below, visit us in person, or send the form on this page — whichever suits you. Every message reaches our team, and we aim to come back to you quickly."
+    },
+    "info": {
+      "label": "Contact Information",
+      "heading": "How to Reach Us",
+      "phone": {
+        "label": "Phone",
+        "note": "Call us for orders, bookings and general questions."
+      },
+      "email": {
+        "label": "Email",
+        "note": "For written enquiries and documents."
+      },
+      "address": {
+        "label": "Visit Us",
+        "note": "Our head office location."
+      },
+      "hours": {
+        "label": "Business Hours",
+        "note": "Branch opening hours are listed on the Find Us page."
+      },
+      "placeholder": "To be confirmed",
+      "emailValue": "[Add official email address]",
+      "hoursValue": "[Add business hours]"
+    },
+    "help": {
+      "label": "How Can We Help You?",
+      "heading": "Pick What\nFits Best",
+      "intro": "Choosing the right subject on the form sends your message to the team that can answer it fastest.",
+      "items": {
+        "orders": {
+          "title": "Orders & Delivery",
+          "text": "Questions about an order you have placed, delivery to your area, or ordering ahead for a busy evening."
+        },
+        "reservations": {
+          "title": "Reservations & Groups",
+          "text": "Booking a table, reserving space for a family gathering, or planning a visit with a large party."
+        },
+        "catering": {
+          "title": "Catering & Events",
+          "text": "Catering for an occasion, office order or celebration, with quantities and timings agreed in advance."
+        },
+        "franchise": {
+          "title": "Franchise Enquiries",
+          "text": "Interested in opening a Hot N Cool branch? Our franchise page has the details, and we will take it from there."
+        },
+        "careers": {
+          "title": "Careers & Recruitment",
+          "text": "Applying to join a branch team, or following up on an application you have already sent us."
+        },
+        "feedback": {
+          "title": "Feedback & Support",
+          "text": "Tell us about a visit that went well, or one that did not. Both help us put things right."
+        }
+      }
+    },
+    "why": {
+      "label": "Why Contact Us?",
+      "heading": "You'll Hear\nBack From Us",
+      "items": {
+        "support": {
+          "title": "Professional Support",
+          "text": "Your message is handled by someone who knows our kitchens and branches, not a generic reply."
+        },
+        "solutions": {
+          "title": "Answers Built Around You",
+          "text": "Group bookings, catering quantities and timings are arranged to suit your occasion, not a fixed package."
+        },
+        "response": {
+          "title": "Timely Communication",
+          "text": "We aim to respond quickly, and we tell you what happens next instead of leaving you waiting."
+        }
+      }
+    },
+    "map": {
+      "heading": "Find Us on the Map",
+      "text": "Our branches across Qatar are listed with directions and phone numbers on the Find Us page."
+    },
+    "faq": {
+      "label": "Frequently Asked Questions",
+      "heading": "Questions We\nGet Often",
+      "items": {
+        "hours": {
+          "q": "What are your opening hours?",
+          "a": "Opening hours vary from branch to branch. Every branch is listed on our Find Us page with its own phone number — calling the branch nearest you is the quickest way to confirm."
+        },
+        "delivery": {
+          "q": "Do you deliver to my area?",
+          "a": "Delivery coverage depends on the branch. Each branch listing on the Find Us page shows its phone number and, where available, a WhatsApp ordering link you can use to check."
+        },
+        "reservations": {
+          "q": "Can I book a table for a large group?",
+          "a": "Yes. Call the branch you would like to visit, or send this form with “Reservations & Groups” selected and tell us the date, time and number of guests."
+        },
+        "catering": {
+          "q": "Do you cater for events?",
+          "a": "Send us the form with “Catering & Events” selected, including the date, the number of guests and the kind of occasion, and our team will come back to you with what we can arrange."
+        },
+        "franchise": {
+          "q": "How do I enquire about a franchise?",
+          "a": "Our franchise page explains how we work with partners. Send this form with “Franchise Enquiry” selected and we will follow up."
+        },
+        "careers": {
+          "q": "How do I apply for a job?",
+          "a": "Applications go through our careers page, where you can submit your details and attach your CV directly."
+        }
+      }
+    },
+    "cta": {
+      "heading": "Let's Talk",
+      "text": "Tell us what you need — an order, a booking, an event or a partnership — and we will take it from there.",
+      "button": "Send a Message"
+    }
+  },
+  "dishes": {
+    "heading": "Signature dishes",
+    "currency": "ريال"
+  },
+  "combo": {
+    "title": "Combo",
+    "titleAr": "وجبة كومبو",
+    "cta": "Order Now!",
+    "currency": "ريال",
+    "story": {
+      "heading": "From a Small Beginning\nto a Growing Legacy",
+      "left": "In 1991, in the heart of Qatar, Nizar Abdullah and his team began a journey with little more than passion, hard work, and a determination to learn. Starting with a small cafeteria, they learned every part of the business — from the kitchen to service, delivery, and customer care.\n\nThen came a simple idea: why not be there when customers need us most? Keeping the cafeteria open late gradually led to a 24-hour concept, creating a destination where customers could enjoy their favourite food, even in the middle of the night.",
+      "right": "That small beginning grew into Hot N Cool — a trusted hospitality brand with 70+ branches, 1,000+ employees, and 200+ vehicles across Qatar and the UAE.\n\nThrough every stage of growth, one thing has remained unchanged: our passion for hospitality, our commitment to consistency, and the trust of our customers.",
+      "ctas": [
+        "Best Sandwich",
+        "Best Grill",
+        "Best Broast"
+      ]
+    }
+  },
+  "reviews": {
+    "brand": "Hot n Cool",
+    "title": "Reviews"
+  },
+  "findUs": {
+    "line1": "Find the nearest",
+    "line2": "Hot n Cool branch",
+    "brand": "Hot n Cool",
+    "cta": "View All Outlets",
+    "sub": "See all outlet locations and details",
+    "mapTitle": "Map of {{name}}"
+  },
+  "franchise": {
+    "label": "Hot n Cool Express",
+    "heading": "Own a piece of\nQatar’s most\nloved kitchen",
+    "text": "Since 1991, Hot N Cool has served traditional flavour with fast, warm hospitality across Qatar. Now we’re bringing that same recipe to new markets — with the right partners.",
+    "stats": {
+      "founded": {
+        "value": "1991",
+        "label": "Year founded"
+      },
+      "restaurants": {
+        "value": "74+",
+        "label": "Restaurants across Qatar"
+      },
+      "years": {
+        "value": "35+",
+        "label": "Years of hospitality"
+      },
+      "next": {
+        "value": "GCC",
+        "label": "Our next chapter"
+      }
+    },
+    "locations": {
+      "label": "Location",
+      "title": "Our Locations"
+    },
+    "experience": {
+      "label": "Experience",
+      "title": "The Experience",
+      "sub": "What Makes\nHot N cool Express\nDifferent",
+      "desc": "At Hot n Cool Express, it’s never just about what’s in your cup\nit’s about giving you exactly what you need, exactly when you need it.",
+      "digital": {
+        "label": "Digital Presence",
+        "title": "A Brand People\nConnect With",
+        "instagram": {
+          "value": "450K+",
+          "label": "Reach"
+        },
+        "facebook": {
+          "value": "320K+",
+          "label": "Reach"
+        }
+      }
+    }
+  },
+  "whatsapp": {
+    "title": "Chat with a branch",
+    "subtitle": "Pick a branch to open WhatsApp",
+    "open": "Chat with us on WhatsApp",
+    "tooltip": "Chat with us!",
+    "close": "Close",
+    "loading": "Loading branches",
+    "empty": "No branches available right now.",
+    "error": "Could not load branches.",
+    "retry": "Try again",
+    "unavailable": "WhatsApp not available",
+    "loaded": "Branches loaded"
+  },
+  "privacyPage": {
+    "breadcrumbCurrent": "Privacy Policy",
+    "breadcrumbSite": "Hot n Cool Qatar",
+    "title": "Privacy Policy",
+    "intro": "Hot n Cool Express respects your privacy. This policy explains how we collect, use, and protect your personal information.",
+    "sections": {
+      "collect": {
+        "heading": "Information We Collect",
+        "body": "We may collect personal information such as your name, email address, and phone number when you contact us, place an order, or sign up for our loyalty programme."
+      },
+      "use": {
+        "heading": "How We Use Your Information",
+        "body": "We use your information to process orders, improve our services, send promotional communications (with your consent), and comply with legal obligations."
+      },
+      "protect": {
+        "heading": "Data Protection",
+        "body": "We implement appropriate security measures to protect your personal information against unauthorised access, alteration, disclosure, or destruction."
+      },
+      "rights": {
+        "heading": "Your Rights",
+        "body": "You have the right to access, correct, or delete your personal data. Contact us at {{email}} to exercise these rights."
+      },
+      "contact": {
+        "heading": "Contact",
+        "body": "For privacy inquiries, email: {{email}}"
+      }
+    },
+    "rightsEmail": "hnchospitality@gmail.com",
+    "contactEmail": "legal@hnchq.com"
+  },
+  "termsPage": {
+    "breadcrumbCurrent": "Terms of use",
+    "breadcrumbSite": "Hot n Cool Qatar",
+    "title": "Terms of use",
+    "intro": "Welcome to Hot N Cool. By accessing or using our website and services, you agree to be bound by these Terms of Use.",
+    "sections": {
+      "services": {
+        "heading": "Use of Services",
+        "body": "Our services are intended for personal, non-commercial use. You agree not to misuse our services or help anyone else do so."
+      },
+      "ip": {
+        "heading": "Intellectual Property",
+        "body": "All content, trademarks, and intellectual property on this site are owned by Hot N Cool and its licensors. You may not reproduce, modify, or distribute any content without our prior written permission."
+      },
+      "liability": {
+        "heading": "Limitation of Liability",
+        "body": "Hot N Cool shall not be liable for any indirect, incidental, or consequential damages arising from the use of our services."
+      },
+      "contact": {
+        "heading": "Contact",
+        "body": "Email: {{email}}"
+      }
+    },
+    "contactEmail": "hospitalityhnc@gmail.com"
+  }
+}
